@@ -171,12 +171,27 @@ body{
   margin-top: 50px;
 }
 .contact_container{
+  display: inline-flex;
   margin-top:50px ;
   background-color: white;
   border-radius: 50px;
   padding: 50px;
+  width: 75%;
 }
 .contact_info{
   width: 50%;
   text-align: right;
+  margin: auto;
+}
+.contact_info p{
+  font-size: 18px;
+  font-weight: 700;
+}
+.logo h2{
+  font-family: 'Ruwudu', serif;
+  font-size: 32px;
+}
+.logo h2 span{
+  font-family: 'Ruwudu', serif;
+  color: rgb(0, 211, 176);
 }
